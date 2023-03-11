@@ -1,0 +1,35 @@
+{
+  "name": "@kaana/kaana-services-js",
+  "version": "1.0.5",
+  "description": "Kaana Services is a JavaScript library that provides an API for the Kaana ecosystem, allowing developers to easily connect and make authenticated HTTP requests to get information about users and other applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaanaOfficial/KaanaServices-JS.git"
+  },
+  "keywords": [
+    "Kaana",
+    "Kaana",
+    "Services"
+  ],
+  "author": "KaanaOfficial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaanaOfficial/KaanaServices-JS/issues"
+  },
+  "homepage": "https://github.com/KaanaOfficial/KaanaServices-JS#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "pinia": "^2.0.33"
+  }
+}
